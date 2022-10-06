@@ -10,7 +10,7 @@ function gotclicked(){
     play(key);
 }
 function play(key){
-    var audio = new Audio('sounds/crash.mp3');
+    var audio = new Audio();
     if(key === 'w' ){
     audio = new Audio('sounds/crash.mp3');
     }
